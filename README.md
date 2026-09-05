@@ -37,6 +37,14 @@ build on Linux kernel 7.1/7.2 (hidden flexible-array members, a removed
 `strncpy()`, the `cfg80211_ops` net_device→wireless_dev migration, and a
 retired wiphy flag) — found bringing up real hardware on a current kernel.
 
+### [systemd SELinux/stdio ordering fix](https://github.com/systemd/systemd/pull/43646)
+
+Traced a production SELinux denial to service-manager code opening
+`StandardOutput=`/`StandardError=`/`StandardInput=` targets before the unit's
+own domain exists, and got the ordering documented in `systemd.exec(5)`.
+Verified live across two hosts with independent kernel and policy builds
+before submitting.
+
 ## How I work
 
 - Production claims need live, reproducible evidence.
