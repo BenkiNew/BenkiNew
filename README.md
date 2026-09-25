@@ -30,12 +30,15 @@ An upstream documentation improvement clarifying how open version ranges in
 manifest files are extracted and why resolved lockfiles provide stronger
 installed-version evidence.
 
-### [8821au-20210708 driver fix](https://github.com/morrownr/8821au-20210708/pull/210)
+### [8821au-20210708 driver fixes](https://github.com/morrownr/8821au-20210708/pull/210)
 
 Fixed four kernel-API incompatibilities blocking the RTL8821AU Wi-Fi driver
 build on Linux kernel 7.1/7.2 (hidden flexible-array members, a removed
 `strncpy()`, the `cfg80211_ops` net_device→wireless_dev migration, and a
 retired wiphy flag) — found bringing up real hardware on a current kernel.
+Followed up with [#211](https://github.com/morrownr/8821au-20210708/pull/211)
+to version-gate the `cfg80211_ops` migration across kernel.org tags, preserving
+backward build compatibility on kernels 5.4 through 7.0.
 
 ### [systemd SELinux/stdio ordering fix](https://github.com/systemd/systemd/pull/43646)
 
