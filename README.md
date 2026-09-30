@@ -30,15 +30,24 @@ An upstream documentation improvement clarifying how open version ranges in
 manifest files are extracted and why resolved lockfiles provide stronger
 installed-version evidence.
 
-### [8821au-20210708 driver fixes](https://github.com/morrownr/8821au-20210708/pull/210)
+### [8821au-20210708 — maintained fork](https://github.com/BenkiNew/8821au-20210708)
 
-Fixed four kernel-API incompatibilities blocking the RTL8821AU Wi-Fi driver
-build on Linux kernel 7.1/7.2 (hidden flexible-array members, a removed
-`strncpy()`, the `cfg80211_ops` net_device→wireless_dev migration, and a
-retired wiphy flag) — found bringing up real hardware on a current kernel.
-Followed up with [#211](https://github.com/morrownr/8821au-20210708/pull/211)
-to version-gate the `cfg80211_ops` migration across kernel.org tags, preserving
-backward build compatibility on kernels 5.4 through 7.0.
+[![Build CI](https://github.com/BenkiNew/8821au-20210708/actions/workflows/build.yml/badge.svg)](https://github.com/BenkiNew/8821au-20210708/actions/workflows/build.yml)
+[![Release](https://img.shields.io/github/v/release/BenkiNew/8821au-20210708)](https://github.com/BenkiNew/8821au-20210708/releases/latest)
+
+RTL8821AU Wi-Fi driver, actively maintained after upstream (`morrownr`)
+stepped back from maintenance. Started by fixing four kernel-API
+incompatibilities blocking the build on Linux 7.1/7.2 (hidden
+flexible-array members, a removed `strncpy()`, the `cfg80211_ops`
+net_device→wireless_dev migration, a retired wiphy flag), then a
+version-guard fix and a missing `cfg80211` callback found bringing up
+real hardware on later 7.x kernels. Rather than wait on unreviewed
+upstream PRs, fixes now land directly on this fork's `main` — see the
+[first release](https://github.com/BenkiNew/8821au-20210708/releases/tag/v5.12.5.2-fork.1)
+for the full changelog. Upstream PRs stay open as a courtesy:
+[#210](https://github.com/morrownr/8821au-20210708/pull/210)/[#211](https://github.com/morrownr/8821au-20210708/pull/211)
+(merged), [#212](https://github.com/morrownr/8821au-20210708/pull/212)/[#217](https://github.com/morrownr/8821au-20210708/pull/217)
+(open).
 
 ### [systemd SELinux/stdio ordering fix](https://github.com/systemd/systemd/pull/43646)
 
