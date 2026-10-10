@@ -1,5 +1,7 @@
 # Kostiantyn Bank
 
+**ХАКЕРБАНК / XAKERBANK** · GitHub: [@BenkiNew](https://github.com/BenkiNew)
+
 **Backend, infrastructure, and applied AI engineering · Ukraine 🇺🇦**
 
 I build and operate Linux-first systems where correctness, observability, and
@@ -56,6 +58,14 @@ Traced a production SELinux denial to service-manager code opening
 own domain exists, and got the ordering documented in `systemd.exec(5)`.
 Verified live across two hosts with independent kernel and policy builds
 before submitting.
+
+## Technical notes
+
+### [When a failed update becomes “unchanged”: Bash errexit and systemd](https://gist.github.com/BenkiNew/03f6f203f6709b8102b2e47b7b899d02)
+
+A synthetic reproduction of a hidden failure under `set -e` and `||`, with explicit
+status checks and notes on systemd write permissions. Available in Ukrainian and
+[English](https://gist.github.com/BenkiNew/03f6f203f6709b8102b2e47b7b899d02#file-bash-errexit-post-en-md).
 
 ## How I work
 
