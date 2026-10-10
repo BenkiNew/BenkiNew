@@ -1,8 +1,30 @@
-# Kostiantyn Bank
+# XAKERBANK Labs
 
-**ХАКЕРБАНК / XAKERBANK** · GitHub: [@BenkiNew](https://github.com/BenkiNew)
+Незалежна інженерна лабораторія **Костянтина Банка**.
 
-**Backend, infrastructure, and applied AI engineering · Ukraine 🇺🇦**
+**ХакерБанк / XAKERBANK** — мій авторський псевдонім; **BenkiNew** — логін GitHub.
+
+Працюю з Linux-серверами, backend, PostgreSQL, пошуком та прикладним ШІ.
+Досліджую надійність, моніторинг і відновлення сервісів. Публікую технічні
+розбори, відтворювані приклади та межі проведених перевірок.
+
+## Матеріали лабораторії
+
+- [infra-notes](https://github.com/BenkiNew/infra-notes) — збірка технічних матеріалів.
+- [Як моніторинг помиляється](https://dou.ua/forums/topic/62492/) — стаття на DOU;
+  [розширена версія](https://github.com/BenkiNew/infra-notes/blob/main/articles/uk/monitoring-with-evidence.md).
+- [Як невдале оновлення перетворилося на «без змін»](https://github.com/BenkiNew/infra-notes/blob/main/articles/uk/bash-errexit-hidden-failure.md) —
+  Bash `errexit`, systemd і скрипти відтворення; [першоджерело у Gist](https://gist.github.com/BenkiNew/03f6f203f6709b8102b2e47b7b899d02).
+- [Профіль автора на DOU](https://dou.ua/users/kostyantin-bank/).
+
+## About
+
+**Kostiantyn Bank · ХакерБанк / XAKERBANK** · GitHub: [@BenkiNew](https://github.com/BenkiNew)
+
+XAKERBANK Labs is my independent engineering practice. Public work includes
+technical notes, reproducible examples, and developer tooling.
+
+Backend, infrastructure, and applied AI engineering · Ukraine 🇺🇦
 
 I build and operate Linux-first systems where correctness, observability, and
 recovery matter. My work spans backend services, PostgreSQL, search systems,
