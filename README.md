@@ -2,13 +2,9 @@
 
 Розробник і незалежний дослідник.
 
-**BenkiNew** — моя основна технічна ідентичність на GitHub.
-
 Працюю з Linux-серверами, backend, PostgreSQL, пошуком та прикладним ШІ.
 Досліджую надійність, моніторинг і відновлення сервісів. Публікую технічні
-розбори, відтворювані приклади та межі проведених перевірок.
-
-Під іменем **BenkiNew** публікую власні дослідження, інструменти та технічні матеріали.
+розбори, інструменти та відтворювані приклади з поясненням меж перевірок.
 
 ## Публікації та технічні матеріали
 
@@ -21,10 +17,10 @@
 
 ## About
 
-**BenkiNew** · GitHub: [@BenkiNew](https://github.com/BenkiNew)
+Developer and independent researcher.
 
-I publish my independent engineering work as BenkiNew. Public work includes
-technical notes, reproducible examples, and developer tooling.
+I publish technical investigations, developer tools, and reproducible examples
+with clear explanations of what the evidence supports and its limits.
 
 Backend, infrastructure, and applied AI engineering · Ukraine 🇺🇦
 
