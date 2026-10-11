@@ -11,7 +11,7 @@
   [розширена версія](https://github.com/BenkiNew/infra-notes/blob/main/articles/uk/monitoring-with-evidence.md).
 - [Як невдале оновлення перетворилося на «без змін»](https://github.com/BenkiNew/infra-notes/blob/main/articles/uk/bash-errexit-hidden-failure.md) —
   Bash `errexit`, systemd і скрипти відтворення; [першоджерело у Gist](https://gist.github.com/BenkiNew/03f6f203f6709b8102b2e47b7b899d02).
-- [Профіль автора на DOU](https://dou.ua/users/kostyantin-bank/).
+- [Профіль автора на DOU](https://dou.ua/users/kostiantyn-bank/).
 
 ## About
 
