@@ -1,15 +1,14 @@
-# Костянтин Банк · ХакерБанк / XAKERBANK
+# BenkiNew
 
 Розробник і незалежний дослідник.
 
-**ХакерБанк / XAKERBANK** — мій авторський псевдонім; **BenkiNew** — логін GitHub.
+**BenkiNew** — моя основна технічна ідентичність на GitHub.
 
 Працюю з Linux-серверами, backend, PostgreSQL, пошуком та прикладним ШІ.
 Досліджую надійність, моніторинг і відновлення сервісів. Публікую технічні
 розбори, відтворювані приклади та межі проведених перевірок.
 
-**XAKERBANK Labs** — назва моєї незалежної інженерної практики. Під цією
-назвою публікую власні дослідження, інструменти та технічні матеріали.
+Під іменем **BenkiNew** публікую власні дослідження, інструменти та технічні матеріали.
 
 ## Публікації та технічні матеріали
 
@@ -22,9 +21,9 @@
 
 ## About
 
-**Kostiantyn Bank · ХакерБанк / XAKERBANK** · GitHub: [@BenkiNew](https://github.com/BenkiNew)
+**BenkiNew** · GitHub: [@BenkiNew](https://github.com/BenkiNew)
 
-XAKERBANK Labs is my independent engineering practice. Public work includes
+I publish my independent engineering work as BenkiNew. Public work includes
 technical notes, reproducible examples, and developer tooling.
 
 Backend, infrastructure, and applied AI engineering · Ukraine 🇺🇦
