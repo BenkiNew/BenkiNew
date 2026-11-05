@@ -59,7 +59,9 @@ context, state та походження, окремо від check-run базо
 справжнього CodeRabbit-коментаря з coveredCommitId/sourceCommitId=head
 і kind=reviewed та успішний CodeRabbit check саме від App 347564.
 Skipped, neutral, rate-limited, чужий App або старий head не проходять.
-Workflow запускається з довіреної бази; метадані PR читаються лише як дані.
+Для pull_request_target використовується точний base SHA; для issue_comment
+та check_run — github.sha довіреної основної гілки. Метадані PR читаються
+лише як дані. Видалення доказового коментаря також запускає повторну перевірку.
 Після реального контрольного PR цей статус також робиться required від
 GitHub Actions App 15368. Він доповнює resolved threads, а не замінює їх.
 
@@ -69,3 +71,12 @@ Gitleaks використовує `--text`, тому `.gitattributes -diff` не
 Доказ огляду запускається тільки через довірені pull_request_target,
 issue_comment та check_run; подія pull_request_review не використовується,
 бо її workflow може походити з PR, навіть якщо checkout вказує base.
+
+## Узгоджене середовище
+
+Python 3.14, Node 24; checkout v7.0.1, setup-python v7.1.0,
+setup-node v7.1.0 та github-script v9.0.0 закріплені точними SHA.
+Самі JavaScript Actions використовують Node 24; setup-node задає Node
+для команд проєкту й не змінює вбудований runtime інших Actions.
+Для репозиторіїв із Ruff узгоджений інструмент — 0.17.3.
+Версії production-сервісів змінюються окремим упровадженням.
