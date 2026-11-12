@@ -4,6 +4,8 @@
 Досліджую надійність, моніторинг і відновлення сервісів. Публікую технічні
 розбори, інструменти та відтворювані приклади з поясненням меж перевірок.
 
+[SUPERBENCH](https://github.com/BenkiNew/superbench) · [Технічні матеріали](https://github.com/BenkiNew/infra-notes) · [Профіль автора на DOU](https://dou.ua/users/kostiantyn-bank/)
+
 ## Публікації та технічні матеріали
 
 - [infra-notes](https://github.com/BenkiNew/infra-notes) — збірка технічних матеріалів.
