@@ -48,6 +48,8 @@ independent reviewer roles, deterministic reduction, and replayable evidence.
 
 ### [OSV-Scanner contribution](https://github.com/google/osv-scanner/pull/3038)
 
+[![PR #3038](https://img.shields.io/github/pulls/detail/state/google/osv-scanner/3038)](https://github.com/google/osv-scanner/pull/3038)
+
 An upstream documentation improvement clarifying how open version ranges in
 manifest files are extracted and why resolved lockfiles provide stronger
 installed-version evidence.
@@ -74,6 +76,8 @@ for the full changelog. Release `5.12.5.2-fork.2` adds Linux 7.3 support; kernel
 
 ### [Baileys (WhatsApp Web library) — maintained fork](https://github.com/BenkiNew/Baileys-benkinew)
 
+[![CI](https://github.com/BenkiNew/Baileys-benkinew/actions/workflows/ci.yml/badge.svg?branch=maintained)](https://github.com/BenkiNew/Baileys-benkinew/actions/workflows/ci.yml)
+
 Fork of [WhiskeySockets/Baileys](https://github.com/WhiskeySockets/Baileys) (WhatsApp Web library) used in my
 production services. Branch `maintained` is upstream `master` plus three fixes whose upstream PRs were closed
 by the stale bot without review: buffered receipt must not overwrite a decoded `messageTimestamp`
@@ -85,6 +89,8 @@ consumed as a pinned tarball, not published to npm. Limit of verification: linki
 tested end to end.
 
 ### [systemd SELinux/stdio ordering fix](https://github.com/systemd/systemd/pull/43646)
+
+[![PR #43646](https://img.shields.io/github/pulls/detail/state/systemd/systemd/43646)](https://github.com/systemd/systemd/pull/43646)
 
 Traced a production SELinux denial to service-manager code opening
 `StandardOutput=`/`StandardError=`/`StandardInput=` targets before the unit's
