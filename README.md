@@ -52,7 +52,7 @@ An upstream documentation improvement clarifying how open version ranges in
 manifest files are extracted and why resolved lockfiles provide stronger
 installed-version evidence.
 
-### [8821au-maintained-benkinew — maintained fork](https://github.com/BenkiNew/8821au-maintained-benkinew)
+### [RTL8821AU Wi-Fi driver — maintained fork](https://github.com/BenkiNew/8821au-maintained-benkinew)
 
 [![Build CI](https://github.com/BenkiNew/8821au-maintained-benkinew/actions/workflows/build.yml/badge.svg)](https://github.com/BenkiNew/8821au-maintained-benkinew/actions/workflows/build.yml)
 [![Release](https://img.shields.io/github/v/release/BenkiNew/8821au-maintained-benkinew)](https://github.com/BenkiNew/8821au-maintained-benkinew/releases/latest)
@@ -72,7 +72,7 @@ for the full changelog. Release `5.12.5.2-fork.2` adds Linux 7.3 support; kernel
 (merged), [#212](https://github.com/morrownr/8821au-20210708/pull/212)/[#217](https://github.com/morrownr/8821au-20210708/pull/217)
 (open).
 
-### [Baileys-benkinew — maintained fork](https://github.com/BenkiNew/Baileys-benkinew)
+### [Baileys (WhatsApp Web library) — maintained fork](https://github.com/BenkiNew/Baileys-benkinew)
 
 Fork of [WhiskeySockets/Baileys](https://github.com/WhiskeySockets/Baileys) (WhatsApp Web library) used in my
 production services. Branch `maintained` is upstream `master` plus three fixes whose upstream PRs were closed
